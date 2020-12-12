@@ -1,0 +1,113 @@
+#header{
+    font-size: 37px;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.green{
+	background-color: green;	
+}
+.popup {
+ background-color: none;
+ position: relative;
+    display: inline-block;
+  cursor: pointer;
+}
+.chatroom { 
+background-color: purple;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+:after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+script {
+    display: none;
+}
+body {
+    font-family: "Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 35px;
+    color: #41484d;
+    background-color: #fff;
+    margin: 0;
+}
+.green{
+	background-color:yellow;	
+}
+	
+
+div.black {
+	background-color:black;	
+}
+div.black a{
+	font-size:30px;
+	color:blue;
+	text-decoration:none;
+	padding-right: 33px;
+}
+div.black a.active{
+	color:red;
+	font-weight:bold;
+}
+.it {
+	background-color:red;
+}
+div.font {
+	font-size:50;	
+}
+
+div.redBG{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	position:fixed;
+	bottom:0px;
+	text-align: center;
+	width: 100%;
+}
